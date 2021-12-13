@@ -1,6 +1,15 @@
 # Suicides Rates in Country
 
-Use this template repo for your personal data projects. Would you please use the following format for your repository? Please name your repository in your personal space using the following naming structure `[title]-[lastname]-[languagesused]`.  You will then complete a pull request to move your personal data projects into our organization.
+- __Project Purpose:__ Suicide is a serious public health problem, most at risks are those who has mental disorder. There is an association between the two such as depression, bipolor disorder, and many more that contributes. 
+- Every year 703 000 people take their own life and there are many more people who attempt suicide. Every suicide is a tragedy that affects families, communities and entire countries and has long-lasting effects on the people left behind. Suicide occurs throughout the lifespan and was the fourth leading cause of death among 15-29 year-olds globally in 2019. (https://www.who.int/news-room/fact-sheets/detail/suicide)
+- I decide to use this data to looking into the variables country, suicides population, and seperating the years. This project was for my own personal preference.
+
+
+- __Tools used:__ I used R programming for this project and many packages: tidyverse, dplyr, tidyr, ggplot2, statar, and RColorBrewer. The final scripts are suicide.R shows the process of filtering years, transformation, and fixing up the data.
+
+- __Results:__
+
+
 
 References
 United Nations Development Program. (2018). Human development index (HDI). Retrieved from http://hdr.undp.org/en/indicators/137506
@@ -10,26 +19,15 @@ World Bank. (2018). World development indicators: GDP (current US$) by country:1
 [Szamil]. (2017). Suicide in the Twenty-First Century [dataset]. Retrieved from https://www.kaggle.com/szamil/suicide-in-the-twenty-first-century/notebook
 
 World Health Organization. (2018). Suicide prevention. Retrieved from http://www.who.int/mental_health/suicide-prevention/en/
-
-
-
-- __Project Purpose:__ Take one to two paragraphs to explain your goals.  Why did you use this data? What skills are you going to demonstrate? Did you do this work for a client? 
-- __Tools used:__ Provide an overview of the programming languages and packages you leveraged for this work.  You could provide links to the pertinent reading material that you leveraged to complete the job. Provide links to your final scripts stored in your repository.
-- __Results:__ This is your conclusion.  Explain why your work matters.  How could others use it?  What are your next steps? Show some key findings.
-
 ## Folder structure
 
 ```
 - readme.md
 - scripts
----- readme.md (short description of each script)
----- data_munge.R
----- data_munge.py
----- eda.R
----- model.py
+---- suicide.R
 - data (less than 100 Mb)
----- readme.md (links to data larger than 100 Mb and data details.)
 ---- master.csv
+---- 
 - documents
 ---- generation.png
 ---- api_guide.pdf
