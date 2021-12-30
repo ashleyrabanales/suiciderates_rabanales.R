@@ -1,4 +1,4 @@
-# Suicides Rates in Country
+# Suicides Rates in Countries
 
 - __Project Purpose:__ Suicide is a serious public health problem, most at risks are those who has mental disorder. There is an association between the two such as depression, bipolor disorder, and many more that contributes. Every year 703,000 people take their own life and there are many more people who attempt suicide. Every suicide is a tragedy that affects families, communities and entire countries and has long-lasting effects on the people left behind. Suicide occurs throughout the lifespan and was the fourth leading cause of death among 15-29 year-olds globally in 2019. (https://www.who.int/news-room/fact-sheets/detail/suicide). 
 __Suicide__ is defined as death caused by self-directed injurious behavior with intent to die as a result of the behavior.
