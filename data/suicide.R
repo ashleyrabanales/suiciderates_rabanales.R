@@ -1,4 +1,3 @@
-library(tidyverse)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
@@ -11,7 +10,7 @@ library(RColorBrewer)
 httpgd::hgd()
 httpgd::hgd_browse()
 
-dat <- read.csv("/Users/ashleyrabanales/Projects_ST/rabanales_personal2.R/documents/master.csv") 
+dat <- read.csv("/Users/ashleyrabanales/Projects_ST/rabanales_personal2.R/data/master.csv") 
 
 head(dat)
 sapply(dat, class)
@@ -32,7 +31,7 @@ dat_2 <- dat %>%
   summarize(suicides_pop = n())
 
 head(dat_2)
-tab(dat, generation)
+tab(dat, generation) #all freq fun *tab*
 
 ####bar chart 
 ggplot(data = dat_2) +
